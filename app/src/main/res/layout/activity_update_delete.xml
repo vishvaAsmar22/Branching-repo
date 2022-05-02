@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DBF3FA"
+    tools:context=".UpdateDeleteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:fontFamily="@font/sarala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Update Task"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:fontFamily="@font/sarala"
+            android:id="@+id/editTextTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="task" />
+
+        <EditText
+            android:fontFamily="@font/sarala"
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="time" />
+
+
+
+
+
+        <Button
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/sarala"
+            android:id="@+id/button_update"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="Update"
+            android:textAllCaps="false"
+             />
+
+
+        <Button
+            android:textColor="@color/black"
+            android:background="@drawable/button"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/sarala"
+            android:id="@+id/button_delete"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="Delete"
+            android:textAllCaps="false"
+             />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
